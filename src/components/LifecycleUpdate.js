@@ -18,10 +18,10 @@ class LifecycleUpdate extends Component {
     console.log("componentDidMount");
   }
 
-  // shouldComponentUpdate() {
-  //   console.log("shouldComponentUpdate");
-  //   return null;
-  // }
+  shouldComponentUpdate() {
+    console.log("shouldComponentUpdate");
+    return null;
+  }
 
   getSnapshotBeforeUpdate() {
     console.log("getSnapshotBeforeUpdate");

@@ -18,6 +18,10 @@
 
 // // 4. componentDidMount(): This method is called after the component is rendered to the DOM. It's often used for making AJAX requests or setting up subscriptions. //
 
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // more detaild in ./component/LifecycleMount.js
+
 //============================================================================================================================================//
 
 // //  Updating Phase
@@ -37,6 +41,10 @@
 // // 5. getSnapshotBeforeUpdate - This method allows you to capture a value from the DOM before it potentially changes as a result of a component update. It's often used to preserve scroll positions or other information that could be lost during an update. //
 
 // // 6. componentDidUpdate - It is called automatically by React after a component has been updated, which occurs after the initial render and any subsequent re-renders. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // more details in ./component/LifecycleUpdate.js
 
 //============================================================================================================================================//
 
