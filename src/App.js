@@ -1,12 +1,14 @@
 import React from "react";
-import LifecycleUpdate from "./components/LifecycleUpdate";
+import ParentComp from "./components/ParentComp";
+// import LifecycleUpdate from "./components/LifecycleUpdate";
 // import LifecycleMount from "./components/LifecycleMount";
 
 const App = () => {
   return (
     <div>
       {/* <LifecycleMount /> */}
-      <LifecycleUpdate />
+      {/* <LifecycleUpdate /> */}
+      <ParentComp />
     </div>
   );
 };

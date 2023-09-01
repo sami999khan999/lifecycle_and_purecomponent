@@ -1,3 +1,16 @@
+// Lifecycle of components {
+// Mounting Phase -
+// Updating Phase -
+// Unmounting phase -
+// Error handling -
+// }
+
+// Pure Component -
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
 // // Lifecycle of components
 
 // // In React, the component lifecycle refers to the various stages that a React component goes through from its creation to its removal from the DOM. Understanding the component lifecycle is crucial for managing side effects, handling data fetching, and performing actions at specific points in a component's lifecycle. In React class components, the lifecycle methods are used to define behavior at these different stages.
@@ -24,7 +37,7 @@
 
 //============================================================================================================================================//
 
-// //  Updating Phase
+// // Updating Phase
 
 // // The updating phase in the React component lifecycle occurs when a component is already mounted, and it receives new props or has its state updated. During this phase, React goes through a series of lifecycle methods in a specific order, allowing you to respond to changes and perform actions accordingly. //
 
@@ -67,6 +80,22 @@
 // // 1. static getDerivedStateFromError(error): This static method is called when a child component of an error boundary throws an error during rendering. It receives the error as its parameter and should return an object to update the component's state. This allows you to render a fallback UI in response to the error. //
 
 // // 2. componentDidCatch(error, info): The componentDidCatch method is called after the child component has thrown an error. It receives the error and an info object as parameters. You can use this method to log the error, send it to a server, or perform any other error handling tasks. //
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // Pure Component
+
+// // In React, a "Pure Component" is a specific type of component that automatically implements the shouldComponentUpdate method to optimize rendering performance. It is a class component that extends React.PureComponent instead of React.Component. The key feature of a Pure Component is that it performs a shallow comparison of its props and state to determine if it should re-render when updates occur.
+
+//============================================================================================================================================//
+
+// // Shallow Comparison - When a Pure Component is about to re-render, it first performs a shallow comparison of its current props and state with the next props and state that it receives. If the shallow comparison reveals that there are no differences between the current and next props and state, the component will not re-render. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // Performance Optimization - Pure Components are particularly useful when you have a component that receives frequent updates but doesn't need to re-render unless its props or state have actually changed. By avoiding unnecessary re-renders, Pure Components can improve the performance of your application. //
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
