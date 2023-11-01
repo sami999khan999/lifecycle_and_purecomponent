@@ -42,6 +42,7 @@ class LifecycleUpdate extends Component {
     console.log("Render");
     return (
       <div>
+        <h1>{this.state.name}</h1>
         <button onClick={() => this.updateState()}>Update</button>
       </div>
     );

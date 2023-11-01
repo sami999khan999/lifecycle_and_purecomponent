@@ -13,7 +13,7 @@
 
 // // Lifecycle of components
 
-// // In React, the component lifecycle refers to the various stages that a React component goes through from its creation to its removal from the DOM. Understanding the component lifecycle is crucial for managing side effects, handling data fetching, and performing actions at specific points in a component's lifecycle. In React class components, the lifecycle methods are used to define behavior at these different stages.
+// // In React, the component lifecycle refers to the various stages that a React component goes through from its creation to its removal from the DOM. Understanding the component lifecycle is crucial for managing side effects, handling data fetching, and performing actions at specific points in a component's lifecycle. In React class components, the lifecycle methods are used to define behavior at these different stages. //
 
 //============================================================================================================================================//
 
@@ -87,7 +87,7 @@
 
 // // Pure Component
 
-// // In React, a "Pure Component" is a specific type of component that automatically implements the shouldComponentUpdate method to optimize rendering performance. It is a class component that extends React.PureComponent instead of React.Component. The key feature of a Pure Component is that it performs a shallow comparison of its props and state to determine if it should re-render when updates occur.
+// // In React, a "Pure Component" is a specific type of component that automatically implements the shouldComponentUpdate method to optimize rendering performance. It is a class component that extends React.PureComponent instead of React.Component. The key feature of a Pure Component is that it performs a shallow comparison of its props and state to determine if it should re-render when updates occur. //
 
 //============================================================================================================================================//
 
